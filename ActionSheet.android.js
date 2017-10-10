@@ -359,13 +359,11 @@ class TouchableNativeFeedbackSafe extends React.Component {
 
 let styles = StyleSheet.create({
   groupContainer: {
-    backgroundColor: '#fefefe',
-    borderRadius: 4,
-    borderColor: '#cbcbcb',
-    borderWidth: PIXEL,
+    backgroundColor: '#fafafa',
+    borderRadius: 2,
+    elevation: 10,
     overflow: 'hidden',
-    marginHorizontal: 16,
-    marginBottom: 8,
+    margin: 50,
   },
   button: {
     justifyContent: 'flex-start',
@@ -378,14 +376,13 @@ let styles = StyleSheet.create({
     marginRight: 15,
   },
   text: {
+    color: '#212121',
     fontSize: 17,
-    fontWeight: '700',
     textAlignVertical: 'center',
   },
   rowSeparator: {
     backgroundColor: '#dddddd',
-    height: 1,
-    flex: 1,
+    height: StyleSheet.hairlineWidth,
   },
   overlay: {
     position: 'absolute',
