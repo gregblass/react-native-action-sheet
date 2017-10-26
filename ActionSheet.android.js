@@ -363,7 +363,7 @@ let styles = StyleSheet.create({
     borderRadius: 2,
     elevation: 10,
     overflow: 'hidden',
-    margin: 50,
+    margin: 30,
   },
   button: {
     justifyContent: 'flex-start',
